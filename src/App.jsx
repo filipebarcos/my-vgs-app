@@ -45,6 +45,7 @@ const App = () => {
               <VGSCollectForm.CardExpirationDateField
                 name="expiration_date"
                 placeholder=""
+                css={{color: 'red', fontSize: '20px'}}
                 validations={["required", "validCardExpirationDate"]}
               />
             </div>
@@ -54,6 +55,7 @@ const App = () => {
               <VGSCollectForm.CardSecurityCodeField
                 name="card_security_code"
                 placeholder=""
+                css={{color: 'red'}}
                 validations={["required", "validCardSecurityCode"]}
               />
             </div>
